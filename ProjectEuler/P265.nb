@@ -1,0 +1,135 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      4001,        125]
+NotebookOptionsPosition[      3745,        111]
+NotebookOutlinePosition[      4102,        127]
+CellTagsIndexPosition[      4059,        124]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"F", "[", "n_", "]"}], ":=", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"s", "=", "0"}], ",", 
+       RowBox[{"list", "=", 
+        RowBox[{"Table", "[", 
+         RowBox[{"0", ",", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", 
+            RowBox[{"2", "^", "n"}]}], "}"}]}], "]"}]}], ",", 
+       RowBox[{"index", "=", 
+        RowBox[{"Subsets", "[", 
+         RowBox[{
+          RowBox[{"Range", "[", 
+           RowBox[{
+            RowBox[{"n", "+", "2"}], ",", 
+            RowBox[{
+             RowBox[{"2", "^", "n"}], "-", "1"}]}], "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"2", "^", 
+             RowBox[{"(", 
+              RowBox[{"n", "-", "1"}], ")"}]}], "-", "2"}], "}"}]}], 
+         "]"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"list", "\[LeftDoubleBracket]", 
+        RowBox[{"n", "+", "1"}], "\[RightDoubleBracket]"}], "=", "1"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"list", "\[LeftDoubleBracket]", 
+        RowBox[{"2", "^", "n"}], "\[RightDoubleBracket]"}], "=", "1"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Do", "[", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"list", "[", 
+              RowBox[{"[", "#", "]"}], "]"}], "=", "1"}], ")"}], "&"}], "/@", 
+          
+          RowBox[{
+          "index", "\[LeftDoubleBracket]", "i", "\[RightDoubleBracket]"}]}], 
+         ";", "\[IndentingNewLine]", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Length", "[", 
+             RowBox[{"Union", "[", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"FromDigits", "[", 
+                 RowBox[{
+                  RowBox[{"Take", "[", 
+                   RowBox[{"list", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"#", "+", "n", "-", "1"}]}], "}"}]}], "]"}], ",", 
+                  "2"}], "]"}], "&"}], " ", "/@", " ", 
+               RowBox[{"Range", "[", 
+                RowBox[{
+                 RowBox[{"2", "^", "n"}], "-", "n", "+", "1"}], "]"}]}], 
+              "]"}], "]"}], "\[Equal]", 
+            RowBox[{
+             RowBox[{"2", "^", "n"}], "-", "n", "+", "1"}]}], ",", 
+           RowBox[{"s", "+=", 
+            RowBox[{"FromDigits", "[", 
+             RowBox[{"list", ",", "2"}], "]"}]}]}], "]"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"list", "[", 
+              RowBox[{"[", "#", "]"}], "]"}], "=", "0"}], ")"}], "&"}], "/@", 
+          
+          RowBox[{
+          "index", "\[LeftDoubleBracket]", "i", "\[RightDoubleBracket]"}]}]}],
+         ",", "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", 
+          RowBox[{"Length", "[", "index", "]"}]}], "}"}]}], "]"}], ";", 
+      RowBox[{"Return", "[", "s", "]"}]}]}], "]"}]}], ";"}]], "Input"]
+},
+WindowSize->{740, 605},
+WindowMargins->{{12, Automatic}, {Automatic, 24}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 3184, 89, 216, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

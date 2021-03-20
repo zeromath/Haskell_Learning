@@ -1,0 +1,95 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      2521,         85]
+NotebookOptionsPosition[      2265,         71]
+NotebookOutlinePosition[      2622,         87]
+CellTagsIndexPosition[      2579,         84]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"x", ",", "n", ",", "a", ",", "b"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"x", "=", "1.0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"n", "=", "2"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"a", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"b", "=", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"While", "[", 
+   RowBox[{
+    RowBox[{"x", ">", "0.1"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"b", "+=", "4"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"PrimeQ", "[", 
+        RowBox[{
+         RowBox[{"4", 
+          RowBox[{"n", "^", "2"}]}], "-", 
+         RowBox[{"6", "n"}], "+", "3"}], "]"}], ",", 
+       RowBox[{"a", "++"}]}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"PrimeQ", "[", 
+        RowBox[{
+         RowBox[{"4", 
+          RowBox[{"n", "^", "2"}]}], "-", 
+         RowBox[{"8", "n"}], "+", "5"}], "]"}], ",", 
+       RowBox[{"a", "++"}]}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"PrimeQ", "[", 
+        RowBox[{
+         RowBox[{"4", 
+          RowBox[{"n", "^", "2"}]}], "-", 
+         RowBox[{"10", "n"}], "+", "7"}], "]"}], ",", 
+       RowBox[{"a", "++"}]}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"x", "=", 
+      RowBox[{"a", "/", "b"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"n", "++"}], ";"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Print", "[", 
+  RowBox[{
+   RowBox[{"2", "n"}], "-", "3"}], "]"}]}], "Input",
+ CellChangeTimes->{3.586666377883175*^9}]
+},
+WindowSize->{740, 605},
+WindowMargins->{{60, Automatic}, {Automatic, 24}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 1704, 49, 233, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

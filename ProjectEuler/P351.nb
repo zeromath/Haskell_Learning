@@ -1,0 +1,72 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      1663,         62]
+NotebookOptionsPosition[      1408,         48]
+NotebookOutlinePosition[      1765,         64]
+CellTagsIndexPosition[      1722,         61]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"a", ",", "b", ",", "n"}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"a", "=", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"b", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"n", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Do", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"b", "=", 
+       RowBox[{"a", "+", "n", "-", 
+        RowBox[{"EulerPhi", "[", "n", "]"}]}]}], ";", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"a", ",", "b"}], "}"}], "=", 
+       RowBox[{"{", 
+        RowBox[{"b", ",", "a"}], "}"}]}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "3", ",", "100000000"}], "}"}]}], "]"}], ";"}], " ", "//",
+   "Timing"}], "\[IndentingNewLine]", 
+ RowBox[{"6", "*", "a"}]}], "Input"]
+},
+WindowSize->{740, 605},
+WindowMargins->{{36, Automatic}, {16, Automatic}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 847, 26, 114, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

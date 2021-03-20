@@ -1,0 +1,110 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      2998,        100]
+NotebookOptionsPosition[      2742,         86]
+NotebookOutlinePosition[      3099,        102]
+CellTagsIndexPosition[      3056,         99]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{"357", " ", "587.2663359999997", "s"}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"IsOK", "[", "n_", "]"}], ":=", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"i", "=", "0"}], "}"}], ",", 
+      RowBox[{
+       RowBox[{"For", "[", 
+        RowBox[{
+         RowBox[{"i", "=", "2"}], ",", 
+         RowBox[{
+          RowBox[{"i", "*", "i"}], "\[LessEqual]", "n"}], ",", 
+         RowBox[{"i", "++"}], ",", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Mod", "[", 
+             RowBox[{"n", ",", "i"}], "]"}], "\[Equal]", "0"}], ",", 
+           RowBox[{"If", "[", 
+            RowBox[{
+             RowBox[{"PrimeQ", "[", 
+              RowBox[{"i", "+", 
+               RowBox[{"n", "/", "i"}]}], "]"}], ",", ",", 
+             RowBox[{"Return", "[", "False", "]"}]}], "]"}]}], "]"}]}], "]"}],
+        ";", 
+       RowBox[{"Return", "[", "True", "]"}]}]}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Ans", "[", "n_", "]"}], ":=", 
+     RowBox[{"Module", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"s", "=", "0"}], ",", 
+         RowBox[{"i", "=", "0"}]}], "}"}], ",", 
+       RowBox[{
+        RowBox[{"For", "[", 
+         RowBox[{
+          RowBox[{"i", "=", "1"}], ",", 
+          RowBox[{
+           RowBox[{"Prime", "[", "i", "]"}], "\[LessEqual]", 
+           RowBox[{"n", "+", "1"}]}], ",", 
+          RowBox[{"i", "++"}], ",", 
+          RowBox[{"If", "[", 
+           RowBox[{
+            RowBox[{"SquareFreeQ", "[", 
+             RowBox[{
+              RowBox[{"Prime", "[", "i", "]"}], "-", "1"}], "]"}], " ", ",", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{"IsOK", "[", 
+               RowBox[{
+                RowBox[{"Prime", "[", "i", "]"}], "-", "1"}], "]"}], ",", 
+              RowBox[{"s", "+=", 
+               RowBox[{
+                RowBox[{"Prime", "[", "i", "]"}], "-", "1"}]}]}], "]"}]}], 
+           "]"}]}], "]"}], ";", 
+        RowBox[{"Print", "[", "s", "]"}]}]}], "]"}]}], ";"}]}]}]], "Input"]
+},
+WindowSize->{740, 605},
+WindowMargins->{{100, Automatic}, {Automatic, 4}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 2181, 64, 148, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
