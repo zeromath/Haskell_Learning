@@ -1,3 +1,5 @@
+module PolynomField where
+
 import Data.List (intercalate)
 import Data.Bits (xor, shiftL)
 
