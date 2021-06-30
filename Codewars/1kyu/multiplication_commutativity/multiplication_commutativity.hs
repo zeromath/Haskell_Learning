@@ -1,3 +1,4 @@
+-- https://www.codewars.com/kata/5c302f562f6fe300155a1933
 {-# LANGUAGE TypeOperators, TypeFamilies, GADTs, UndecidableInstances #-}
 
 module Kata.TimesComm where

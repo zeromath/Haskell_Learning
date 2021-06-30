@@ -1,3 +1,4 @@
+-- https://www.codewars.com/kata/5c2fcbcba305ad2c4a91122d
 {-# LANGUAGE TypeOperators, TypeFamilies, GADTs #-}
 
 module Kata.AdditionAssoc where

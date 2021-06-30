@@ -1,3 +1,4 @@
+-- https://www.codewars.com/kata/599d973255342a0ce400009b
 {-# LANGUAGE GADTs, DataKinds,
              TypeFamilies, UndecidableInstances #-}
 

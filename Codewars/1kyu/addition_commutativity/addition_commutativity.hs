@@ -1,3 +1,4 @@
+-- https://www.codewars.com/kata/59db393bc1596bd2b700007f
 {-# LANGUAGE GADTs         #-}
 {-# LANGUAGE TypeFamilies  #-}
 {-# LANGUAGE TypeOperators #-}
