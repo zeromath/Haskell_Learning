@@ -1,4 +1,3 @@
--- https://www.codewars.com/kata/5c302f562f6fe300155a1933
 {-# LANGUAGE TypeOperators, TypeFamilies, GADTs, UndecidableInstances #-}
 
 module Kata.TimesComm where
@@ -54,11 +53,11 @@ equality :: Equal n m -> Equal a b -> Equal (n :+: a) (m :+: b)
 equality EqlZ z = z
 equality (EqlS a) z = EqlS $ equality a z
 
-increaseByA ::  Natural a -> Equal n m -> Equal (a :+: n) (a :+: m)
-increaseByA a z = equality (reflexive a) z
+increaseBy ::  Natural a -> Equal n m -> Equal (a :+: n) (a :+: m)
+increaseBy a z = equality (reflexive a) z
 
 assocLemma :: Natural a -> Natural b -> Equal n m -> Equal (a :+: (b :+: n)) ((a :+: b) :+: m)
-assocLemma NumZ b z = increaseByA b z
+assocLemma NumZ b z = increaseBy b z
 assocLemma (NumS a) b z   = EqlS $ assocLemma a b z
 
 -- | You need this! Copy your solution from
@@ -100,6 +99,6 @@ timesComm :: Natural a -> Natural b -> Equal (a :*: b) (b :*: a)
 timesComm NumZ NumZ = EqlZ
 timesComm NumZ (NumS b) = timesComm NumZ b
 timesComm (NumS a) NumZ = timesComm a NumZ
-timesComm (NumS a) (NumS b) = symmetric $ EqlS ((increaseByA a (timesComm b (NumS a)))
+timesComm (NumS a) (NumS b) = symmetric $ EqlS ((increaseBy a (timesComm b (NumS a)))
                           `transitive` (timesLemma a b (timesComm a b)) 
-                          `transitive` (increaseByA b (timesComm (NumS b) a)))
+                          `transitive` (increaseBy b (timesComm (NumS b) a)))
