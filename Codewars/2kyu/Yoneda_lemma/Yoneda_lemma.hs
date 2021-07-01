@@ -1,4 +1,3 @@
--- https://www.codewars.com/kata/5af33bcdde4c7f94a90000b3
 {-# LANGUAGE RankNTypes, ScopedTypeVariables #-}
 module YonedaLemma where
 import YonedaLemmaPreloaded

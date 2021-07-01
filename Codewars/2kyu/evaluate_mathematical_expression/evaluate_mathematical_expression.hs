@@ -1,4 +1,3 @@
--- https://www.codewars.com/kata/52a78825cdfc2cfc87000005
 module EvaluateMathematicalExpression (calc) where
 
 import Text.Parsec
