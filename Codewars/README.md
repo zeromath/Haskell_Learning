@@ -7,7 +7,10 @@ This is my Codewarrior Profile Badge with current status:
 ![My Codewarrior Profile Badge](https://www.codewars.com/users/zerojz/badges/large)
 
 
+
+
 # Topics
+__Please do NOT copy the code directly.__ Try to understand the algorithm. I provide explanations to all 1kyu/2kyu problems.
 
 ## Arithmetic Logic:
 - [A*B=B*A? Prove it!](https://www.codewars.com/kata/5c302f562f6fe300155a1933) --> [1kyu](1kyu/multiplication_commutativity/multiplication_commutativity.hs)
