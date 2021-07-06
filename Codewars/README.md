@@ -46,4 +46,4 @@ This is my Codewarrior Profile Badge with current status:
 - [Simple Syntax Tokenizing](https://www.codewars.com/kata/599a0d02755eae7070000079) --> [4kyu]
 - [Befunge Interpreter](https://www.codewars.com/kata/526c7b931666d07889000a3c) --> [4kyu]
 - [JSON Parser](https://www.codewars.com/kata/55aa170b54c32468c30000a9) --> [4kyu]
-- [Molecule to atoms](https://www.codewars.com/kata/52f831fa9d332c6591000511) --> [5kyu]
+- [Molecule to atoms](https://www.codewars.com/kata/52f831fa9d332c6591000511) --> [5kyu](5kyu/molecule_to_atoms.hs)
