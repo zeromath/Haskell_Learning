@@ -28,7 +28,7 @@ This is my Codewarrior Profile Badge with current status:
 ## Parser
 - [Simple Interactive Interpreter](https://www.codewars.com/kata/52ffcfa4aff455b3c2000750) --> [1kyu]
 - [Tiny Three-Pass Compiler](https://www.codewars.com/kata/5265b0885fda8eac5900093b) --> [1kyu]
-- [Operator Parser](https://www.codewars.com/kata/5842777813ee50ef38000020) --> [2kyu]
+- [Operator Parser](https://www.codewars.com/kata/5842777813ee50ef38000020) --> [2kyu](2kyu/operator_parser/operator_parser.hs)
 - [Assembler interpreter (part II)](https://www.codewars.com/kata/58e61f3d8ff24f774400002c) --> [2kyu]
 - [Simple Interactive Interpreter](https://www.codewars.com/kata/53005a7b26d12be55c000243) --> [2kyu]
 - [Writing applicative parsers from scratch](https://www.codewars.com/kata/54f1fdb7f29358dd1f00015d) --> [2kyu](2kyu/writing_applicative_parsers_from_scratch/writing_applicative_parsers_from_scratch.hs)
