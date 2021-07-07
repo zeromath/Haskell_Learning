@@ -70,10 +70,8 @@ expr = space *> P.choice [ parseString
               , parseNumber
               , parseNull
               , parseBoolean
-              , dbg "pArray" parseArray
+              , parseArray
               , parseObject] <* space
 
 parse :: String -> Maybe Value
-parse s = case P.parse (expr <* P.eof) undefined s of
-  Left err -> Nothing
-  Right v -> Just v
+parse = rightToMaybe . P.parse (expr <* P.eof) undefined
