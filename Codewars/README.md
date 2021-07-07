@@ -17,7 +17,7 @@ __Please do NOT copy the code directly.__ Try to understand the algorithm. I pro
 - [A+B=B+A? Prove it!](https://www.codewars.com/kata/59db393bc1596bd2b700007f) --> [1kyu](1kyu/addition_commutativity/addition_commutativity.hs)
 - [Odd + Even = Odd? Prove it!](https://www.codewars.com/kata/599d973255342a0ce400009b) --> [2kyu](2kyu/odd_plus_even/odd_plus_even.hs)
 - [(A+B)+C=A+(B+C)? Prove it!](https://www.codewars.com/kata/5c2fcbcba305ad2c4a91122d) --> [4kyu](4kyu/addition_associativity.hs)
-- [A+A=B+B so A=B? Prove it in Haskell!](https://www.codewars.com/kata/60ae5db1639df90055068d20) --> [4kyu]
+- [A+A=B+B so A=B? Prove it in Haskell!](https://www.codewars.com/kata/60ae5db1639df90055068d20) --> [4kyu](4kyu/A_plus_A_equal_B_plus_B.hs)
 
 
 ## Math

@@ -3,7 +3,6 @@ module JSON.Parser (parse) where
 import qualified Text.Megaparsec as P
 import Data.Void
 import Text.Megaparsec.Char
-import Text.Megaparsec.Debug
 
 data Value = String String
            | Number Double
