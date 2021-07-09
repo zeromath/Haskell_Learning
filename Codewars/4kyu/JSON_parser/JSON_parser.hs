@@ -74,3 +74,5 @@ expr = space *> P.choice [ parseString
 
 parse :: String -> Maybe Value
 parse = rightToMaybe . P.parse (expr <* P.eof) undefined
+ where
+   rightToMaybe = either (const Nothing) Just
