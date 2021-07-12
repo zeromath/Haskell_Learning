@@ -22,6 +22,7 @@ __Please do NOT copy the code directly.__ Try to understand the algorithm. I pro
 
 ## Math
 - [Yoneda lemma](https://www.codewars.com/kata/5af33bcdde4c7f94a90000b3) --> [2kyu](2kyu/Yoneda_lemma/Yoneda_lemma.hs)
+- [Data Type a la Carte](https://www.codewars.com/kata/54808fc8ab03a23e82000a1f) --> [3kyu](3kyu/data_type_a_la_carte/data_type_a_la_carte.hs)
 - [Constructing finite fields using binary polynoms](https://www.codewars.com/kata/54f1b7b3f58ba8ee720005a8) --> [3kyu](3kyu/constructing_finite_fields_using_binary_polynoms.hs)
 - [Church Numbers --> Add, Multiply, Exponents](https://www.codewars.com/kata/55c0c452de0056d7d800004d) --> [3kyu](3kyu/church_numbers_add_multiply_exponents.hs)
 - [Five Fundamental Monads](https://www.codewars.com/kata/547202bdf7587835d9000c46) --> [4kyu](4kyu/five_fundamental_monads.hs)
@@ -43,9 +44,7 @@ __Please do NOT copy the code directly.__ Try to understand the algorithm. I pro
 - [Evaluate mathematical expression](https://www.codewars.com/kata/52a78825cdfc2cfc87000005) --> [2kyu](2kyu/evaluate_mathematical_expression/evaluate_mathematical_expression.hs)
 - [Regular expression parser](https://www.codewars.com/kata/5470c635304c127cad000f0d) --> [2kyu](2kyu/regular_expression_parser/regular_expression_parser.hs)
 - [Type Transpiler](https://www.codewars.com/kata/59a6949d398b5d6aec000007) --> [3kyu]
-- [Data Type a la Carte](https://www.codewars.com/kata/54808fc8ab03a23e82000a1f) --> [3kyu]
 - [Calculator](https://www.codewars.com/kata/5235c913397cbf2508000048) --> [3kyu](3kyu/calculator.hs)
-- [Decode the Morse code, advanced](https://www.codewars.com/kata/54b72c16cd7f5154e9000457) --> [4kyu]
 - [Simple Syntax Tokenizing](https://www.codewars.com/kata/599a0d02755eae7070000079) --> [4kyu](4kyu/simple_syntax_tokenizing.hs)
 - [JSON Parser](https://www.codewars.com/kata/55aa170b54c32468c30000a9) --> [4kyu](4kyu/JSON_parser/JSON_parser.hs)
 - [Molecule to atoms](https://www.codewars.com/kata/52f831fa9d332c6591000511) --> [5kyu](5kyu/molecule_to_atoms.hs)
