@@ -38,9 +38,8 @@ __Please do NOT copy the code directly.__ Try to understand the algorithm. I pro
 - [Writing applicative parsers from scratch](https://www.codewars.com/kata/54f1fdb7f29358dd1f00015d) --> [2kyu](2kyu/writing_applicative_parsers_from_scratch/writing_applicative_parsers_from_scratch.hs)
 - [A Simple Postfix Language](https://www.codewars.com/kata/55a4de202949dca9bd000088) --> [2kyu]
 - [Expression Transpiler](https://www.codewars.com/kata/597ccf7613d879c4cb00000f) --> [2kyu]
-- [I love Lisp](https://www.codewars.com/kata/598a82f07bad362e1d000003) --> [2kyu]
+- [I love Lisp](https://www.codewars.com/kata/598a82f07bad362e1d000003) --> [2kyu](2kyu/i_love_lisp/i_love_lisp.hs) <- *Not Finished*
 - [Symbolic differentiation of prefix expressions](https://www.codewars.com/kata/584daf7215ac503d5a0001ae) --> [2kyu]
-- [Decode the Morse code, for real](https://www.codewars.com/kata/54acd76f7207c6a2880012bb) --> [2kyu]
 - [Evaluate mathematical expression](https://www.codewars.com/kata/52a78825cdfc2cfc87000005) --> [2kyu](2kyu/evaluate_mathematical_expression/evaluate_mathematical_expression.hs)
 - [Regular expression parser](https://www.codewars.com/kata/5470c635304c127cad000f0d) --> [2kyu](2kyu/regular_expression_parser/regular_expression_parser.hs)
 - [Type Transpiler](https://www.codewars.com/kata/59a6949d398b5d6aec000007) --> [3kyu]
